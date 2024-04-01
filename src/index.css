@@ -54,8 +54,12 @@ section {
 }
 
 .card {
-	width: 175px;
+	width: 200px;
 	font-size: 0.75rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 
 .card--image {
@@ -69,4 +73,9 @@ section {
 
 .card--star {
 	height: 14px;
+}
+
+.cardd {
+    display:flex;
+    gap: 20px
 }

@@ -1,10 +1,13 @@
 import React from "react"
-import AirbnbGrid from "../images/airbnb-grid.png"
 
 function Hero() {
     return (
         <section className="hero">
-            <img src={AirbnbGrid} alt="airbnb-grid" className="hero--photo" />
+            <img
+                src="images/airbnb-grid.png"
+                alt="airbnb-grid"
+                className="hero--photo"
+            />
             <h1 className="hero--header">Online Experiences</h1>
             <p className="hero--text">
                 Join unique interactive activities led by one-of-a-kind
