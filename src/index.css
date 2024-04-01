@@ -54,12 +54,13 @@ section {
 }
 
 .card {
-	width: 200px;
+	width: 250px;
 	font-size: 0.75rem;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     margin-left: 20px;
+    position: relative;
 }
 
 .card--image {
@@ -76,6 +77,17 @@ section {
 }
 
 .cardd {
-    display:flex;
-    gap: 20px
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+.card--badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-weight: bold;
 }

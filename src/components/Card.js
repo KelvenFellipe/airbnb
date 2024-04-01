@@ -1,8 +1,15 @@
 import React from "react"
 
 function Card(props) {
+    let badgeText
+    if (props.spots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.country === "Online") {
+        badgeText = "ONLINE"
+    }
     return (
         <div className="card">
+            {<div className="card--badge">{badgeText}</div>}
             <img
                 src={`images/${props.img}`}
                 alt="pic"
