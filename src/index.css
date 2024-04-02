@@ -80,6 +80,7 @@ section {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
+	margin-bottom: 20px;
 
 }
 .card--badge {
